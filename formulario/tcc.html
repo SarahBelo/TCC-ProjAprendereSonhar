@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário do voluntario</title>
+	<link rel="stylesheet" type="text/css" href="tcc.css">
+</head>
+<body>
+	<header>
+	    <div class="menu-content">
+        <div id="title">
+		<h1>Projeto Aprender e Sonhar</h1>
+	    </div>
+		 <nav class="header-menu">
+            <ul class="list-itens"> 
+                <li><a href="../saiba_mais/saiba_mais.html">Saiba mais</a></li>
+                <li><a href="../voluntarios/voluntarios.html">Voluntários</a></li>
+                <li><a href="../açoes/açoes.html">Ações</a></li>
+                <li><a href="../doaçao/doaçao.html">Doação</a></li>
+            </ul>    
+        </nav>
+       </div> 
+	</header>
+	<div class="contact_form">
+
+		<div class="formulario">			
+      <h2>Formulário de Cadastro</h2>
+
+
+					<form action="submeter-formulario.php" method="post">				
+
+						
+								<p>
+									<label for="nombre" class="colocar_nome">Nome Completo
+										<span class="obrigatorio">*</span>
+									</label>
+										<input type="text" name="introduzir_nome" id="nome" required="obrigatorio" placeholder="Escreva seu nome">
+								</p>
+
+								<p>
+									<label for="website" class="colocar_idade">Idade
+										<span class="obrigatorio">*</span>
+									</label>
+										<input type="number" name="introduzir_idade" id="idade" placeholder="Insira sua idade">
+										
+								</p>	
+							
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obrigatorio">*</span>
+									</label>
+										<input type="email" name="introduzir_email" id="email" required="obrigatorio" placeholder="Escreva seu Email">
+								</p>
+						
+								<p>
+									<label for="telefone" class="colocar_telefone">Teléfone(Whatsapp)
+									</label>
+										<input type="tel" name="introduzir_telefone" id="telefone" placeholder="Escreva seu teléfone">
+								</p>		
+					
+							
+								<p>
+									<label for="asunto" class="colocar_asunto">Endereço
+										<span class="obrigatorio">*</span>
+									</label>
+										<input type="text" name="introduzir_endereço" id="endereço" required="obrigatorio" placeholder="Insira seu endereço">
+								</p>
+
+								<p>
+									<label for="asunto" class="colocar_asunto">Disponibilidade de horas:
+										<span class="obrigatorio">*</span>
+									</label>
+										<input type="number" name="introduzir_horario" id="endereço" required="obrigatorio" placeholder="Insira um horário">
+								</p>
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+								<p class="aviso">
+									<span class="obligatorio"> * </span>os campos são obrigatórios.
+								</p>					
+						
+					</form>
+		</div>	
+	</div>
+</body>
+</html>
